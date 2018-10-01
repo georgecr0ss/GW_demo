@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-
+          {/* Here goes routes */}
         </div>
       </Router>
     );
