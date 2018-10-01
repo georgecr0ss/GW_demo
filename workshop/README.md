@@ -13,4 +13,4 @@ After routes are passed create each route page into page's folder
 
 import created pages
 
-Declare each page into
+Declare each page into App.js file
