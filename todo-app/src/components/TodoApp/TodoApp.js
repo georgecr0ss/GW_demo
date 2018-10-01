@@ -60,26 +60,6 @@ export default class TodoApp extends React.Component {
         this.setState({ data: updatedState });
     }
 
-    static getDerivedStateFromProps(props, state) {
-        console.log(11111);
-
-        return null;
-    }
-
-    getSnapshotBeforeUpdate(prevProps, prevState) {
-        console.log(333333);
-
-        return null;
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-        console.log(44444);
-    }
-
-    componentDidMount(prevProps, prevState) {
-        console.log(222222);
-    }
-
     render() {
         // Render JSX
         console.log(this.state.data);
